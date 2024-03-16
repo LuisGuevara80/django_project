@@ -1,0 +1,15 @@
+{% extends "layouts/base.html" %}
+
+{% load static %}  # Esto se pone para poder pasar cosas estaticas como las imagenes
+
+{% block content %}
+
+<h1>{{title}}</h1>
+
+<img src="{% static 'Ippo.jpg' %}" alt="" width="200">
+
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora nulla impedit culpa recusandae dolor expedita ad, quos, laboriosam atque, id reprehenderit perferendis harum veniam. Non esse dolores perspiciatis dignissimos ad!</p>
+
+{% endblock %}
+
+
